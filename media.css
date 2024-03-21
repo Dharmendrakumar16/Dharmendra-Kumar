@@ -1,0 +1,577 @@
+/* Breakpoints for responsive style  */
+
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 1041px){
+    .header {
+        padding: 4rem 4%;
+    }
+
+    section {
+        padding: 10rem 4% 2rem;
+    }
+
+    .Home{
+        padding: 0 4%;
+    }
+
+    .footer {
+        padding: 2rem 4%;
+    }
+}
+
+@media (max-width: 991px){
+    html{
+        font-size: 45%;
+    }
+
+    .header {
+        padding: 4rem 4%;
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding: 1rem 4%;
+        background: var(--main-color);
+        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
+        z-index: 1;
+        transition: .25s ease;
+        transition-delay: .25s;
+    }
+
+    .navbar.active {
+        left: 0;
+        transition-delay: 0s;
+    }
+
+    .navbar .active-nav {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        z-index: -1;
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    .navbar.active .active-nav {
+        left: 0;
+        transition-delay: .25s;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        transform: translateX(-20rem);
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    .navbar.active a {
+        transform: translateX(0);
+        transition-delay: .25s;
+    }
+
+    section {
+        padding: 10rem 4% 2rem;
+    }
+
+    .Home{
+        padding: 0 4%;
+    }
+
+    .About-content p{
+        font-size: 1.5rem;
+        margin: 2rem 0 3rem;
+        text-align: justify;
+    }
+
+    .About-img{
+        width: 50rem;
+        height: 61rem;
+    }
+
+    .contact-social-media-icon{
+        position: absolute;
+        bottom: -0.5rem;
+        left: 28rem;
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact form .btn-box{
+            top: 1.5rem;
+            padding-left: 1rem;
+    }
+    
+    .footer {
+        padding: 2rem 4%;
+    }
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 40%;
+    }
+
+    .header {
+        background: var(--bg-color);
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding: 1rem 4%;
+        background: var(--main-color);
+        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
+        z-index: 1;
+        transition: .25s ease;
+        transition-delay: .25s;
+    }
+
+    .navbar.active {
+        left: 0;
+        transition-delay: 0s;
+    }
+
+    .navbar .active-nav {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        z-index: -1;
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    .navbar.active .active-nav {
+        left: 0;
+        transition-delay: .25s;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        transform: translateX(-20rem);
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    .navbar.active a {
+        transform: translateX(0);
+        transition-delay: .25s;
+    }
+
+    .contact-social-media-icon{
+        position: absolute;
+        bottom: -0.5rem;
+        left: 22rem;
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact form .btn-box{
+            top: 1.5rem;
+            padding-left: 1rem;
+    }
+}
+
+@media (max-width: 656px){
+    html{
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 4rem 1%;
+    }
+
+    .home-content h1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Home{
+        padding-top: 11rem;
+        padding-bottom: 13rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .home-content {
+        padding-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media-icon{
+        position: absolute;
+        top: 154%;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-content h1 span{
+        font-size: 5rem;
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 3.4rem;
+    }
+
+    .About-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .About-img{
+        width: 60rem;
+        height: 71rem;
+    }
+
+    .About-Images{
+        order: 1;
+        margin-bottom: -10rem;
+    }
+
+    .About-Text-btns{
+        order: 2;
+    }
+
+    .social-media-icon{
+        width: 265px;
+    }
+
+    .social-media-icon a{
+        width: 38px;
+        height: 38px;
+    }
+
+    .contact-social-media-icon{
+        position: absolute;
+        bottom: -0.1rem;
+        left: 25rem;
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact form .btn-box{
+        top: 1.5rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 568px){
+    .header {
+        padding: 4rem 1%;
+    }
+
+    .home-content h1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Home{
+        padding-top: 11rem;
+        padding-bottom: 13rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .home-content {
+        padding-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media-icon{
+        position: absolute;
+        top: 157%;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-content h1 span{
+        font-size: 5rem;
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 3.4rem;
+    }
+
+    .About-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .About-img{
+        width: 50rem;
+        height: 61rem;
+    }
+
+    .About-Images{
+        order: 1;
+        margin-bottom: -10rem;
+    }
+
+    .About-Text-btns{
+        order: 2;
+    }
+
+    .Education {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10rem 4% 1rem 5%;
+    }
+
+    .Education-content .content h3{
+        font-size: 1.5rem;
+    }
+
+    .contact{
+        padding-bottom: 10rem;
+    }
+
+    .contact-social-media-icon{
+        position: absolute;
+        bottom: -7rem;
+        left: 8.5rem;
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact form .btn-box{
+        top: 1.5rem;
+        padding-left: 16.7rem;
+    }
+}
+
+@media (max-width: 480px){
+    .home-content h1 {
+        font-size: 5.2rem;
+    }
+
+    .Home{
+        padding-top: 13rem;
+        padding-bottom: 13rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .home-content {
+        padding-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media-icon{
+        position: absolute;
+        top: 140%;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-content h1 span{
+        font-size: 4rem;
+    }
+
+    .About-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .About-img{
+        width: 40rem;
+        height: 51rem;
+    }
+
+    .About-Images{
+        order: 1;
+        margin-bottom: -10rem;
+    }
+
+    .About-Text-btns{
+        order: 2;
+    }
+
+    .Education {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10rem 4% 1rem 5%;
+    }
+
+    .Education-content .content h3{
+        font-size: 1.1rem;
+    }
+     
+    .contact form .input-box .input-field {
+        width: 100%;
+    }
+
+    .contact{
+        padding-bottom: 12rem;
+    }
+
+    .contact-social-media-icon{
+        position: absolute;
+        bottom: -7rem;
+        left: 3.5rem;
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact form .btn-box{
+        padding-left: 11.5rem;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p{
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 371px){
+    html{
+        font-size: 40%; 
+    }
+
+    .header {
+        padding: 5rem 4.5%;
+    }
+
+    .header a{
+        font-size: 2.2rem;
+    }
+
+    .Home{
+        padding-top: 10rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .home-content {
+        padding-top: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media-icon{
+        position: absolute;
+        top: 105%;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-content h1 span{
+            font-size: 3.5rem;
+    }
+
+    .About-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .About-img{
+        width: 42rem;
+        height: 53rem;
+    }
+
+    .About-Images{
+        order: 1;
+    }
+
+    .About-Text-btns{
+        order: 2;
+    }
+
+    .Education {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10rem 4% 1rem 5%;
+    }
+
+    .Education-content .content h3{
+        font-size: 1.3rem;
+    }
+     
+    .contact{
+        padding-bottom: 12rem;
+    }
+
+    .contact-social-media-icon{
+        position: absolute;
+        bottom: -8rem;
+        left: 0.5rem;
+        width: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .contact form .btn-box{
+            padding-left: 15rem;
+    }
+}
